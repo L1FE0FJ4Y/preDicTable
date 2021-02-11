@@ -1,10 +1,11 @@
-﻿<preDicTable>
+preDicTable
+------------
 README
 Team V3 - 2-10-2021 - v2.1.0
 
 Revision History
 Date             Author        Description
-————————————————————————————
+————————————————————————————————————————————————————————————————————————————————————
 2-8-2021        Jay Shin        v1.0.0 - Initializing README
 2-9-2021        Jay Shin                v2.0.0 - Descript general information of program
 2-10-2021        Adam C                v2.1.0 - Wrote getting started and improved the rest
@@ -22,7 +23,9 @@ In a Unix terminal and inside the preDicTable Directory:
 
 >>> python3 preDicTable.py
 
+
 Contents of preDicTable.zip
+---------------------------
         i.        README.txt
 - Basic overview and use instructions
         ii.        SRS.pdf
@@ -41,17 +44,21 @@ and the main python file preDicTable.py
 
 
 preDicTable
+------------
 Transformation Tree program to process and study time series
 
 
 Environment Requirement
+-----------------------
         Python3
 
 
 Overview
+---------
         preDicTable simply asks users to pick functionalities from the transformation module. Because this program is still a prototype, users must enter exact numbers or variables for each function. As long as users type the right inputs, this program will not fail.
 
 Rules
+-----
         Preprocessing operators are expected to be used before modeling and visualization operators, however this is not enforced.
 
 
@@ -63,6 +70,7 @@ Make sure that Time Series do not contain any NaN or Infinite Values
 
 
 Getting Started
+---------------
 To begin, open preDicTable.py in the terminal.
 
 
@@ -94,6 +102,7 @@ for a full list of operators, or more information, check the SDS
 
 
 Example
+--------
         Once you have a tree:
                 Enter ‘1’ to add
                 Enter ‘0’ to add an operator node (this node will be called ‘2’)
@@ -106,23 +115,24 @@ Example
                 Enter ‘2’ to add node to the previously made node
                 Enter ‘create_train’ to choose it as your operator
                 Enter ‘10’ for 10 inputs
-Enter ‘10’ for input spacing of 10 (indices)
-Enter ‘1’ for one-step-ahead forecasting
-Enter ‘1’ for one-step-ahead forecasting
+                Enter ‘10’ for input spacing of 10 (indices)
+                Enter ‘1’ for one-step-ahead forecasting
+                Enter ‘1’ for one-step-ahead forecasting
                 Enter ‘1’ to add 
-Enter ‘0’ to add an operator node (this node will be called ‘4’)
+                Enter ‘0’ to add an operator node (this node will be called ‘4’)
                 Enter ‘3’ to add node to the previously made node
                 Enter ‘forecast’ to choose it as your operator
                 Enter ‘10’ to create 10 sequential forecasts
                 Enter ‘1’ to add
-Enter ‘0’ to add an operator node
-Enter ‘4’ to add node to the previous node
-Enter  ‘plot’ to choose it as your operator
-Enter ‘4’ to execute
-Enter ‘1’ to execute a pipeline
-Enter ‘5’ to choose the leaf of the pipeline you want to execute
--wait for the program to run (may take a while) and you will get a plot-
+                Enter ‘0’ to add an operator node
+                Enter ‘4’ to add node to the previous node
+                Enter  ‘plot’ to choose it as your operator
+                Enter ‘4’ to execute
+                Enter ‘1’ to execute a pipeline
+                Enter ‘5’ to choose the leaf of the pipeline you want to execute
+                -wait for the program to run (may take a while) and you will get a plot-
 
 
-Result 
+Result
+------
         Users must add a visualization node to visualize the result. Because preDicTable is still a beta, its forecast may not be accurate.
