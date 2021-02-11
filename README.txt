@@ -1,7 +1,7 @@
 ﻿<preDicTable>
 README
 Team V3 - 2-10-2021 - v2.1.0
-Contributors: Alex Villa, Jay Shin, Adam Christianson, Isaac Priddy, Ellie Bruhns
+
 Revision History
 Date             Author        Description
 ————————————————————————————
@@ -10,6 +10,17 @@ Date             Author        Description
 2-10-2021        Adam C                v2.1.0 - Wrote getting started and improved the rest
 2-10-2021        Alex V                v2.1.1 - Contents section
 
+Easy Install:
+-------------
+In a Unix terminal and inside the preDicTable Directory: 
+
+>>> python3 -m venv preDic
+
+>>> source preDic/bin/activate 
+
+>>> pip3 install -r requirements.txt 
+
+>>> python3 preDicTable.py
 
 Contents of preDicTable.zip
         i.        README.txt
