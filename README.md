@@ -1,15 +1,6 @@
 preDicTable
 ------------
 README
-Team V3 - 2-10-2021 - v2.1.0
-
-Revision History
-Date             Author        Description
-————————————————————————————————————————————————————————————————————————————————————
-2-8-2021        Jay Shin        v1.0.0 - Initializing README
-2-9-2021        Jay Shin                v2.0.0 - Descript general information of program
-2-10-2021        Adam C                v2.1.0 - Wrote getting started and improved the rest
-2-10-2021        Alex V                v2.1.1 - Contents section
 
 Easy Install:
 -------------
@@ -55,11 +46,11 @@ Environment Requirement
 
 Overview
 ---------
-        preDicTable simply asks users to pick functionalities from the transformation module. Because this program is still a prototype, users must enter exact numbers or variables for each function. As long as users type the right inputs, this program will not fail.
+preDicTable simply asks users to pick functionalities from the transformation module. Because this program is still a prototype, users must enter exact numbers or variables for each function. As long as users type the right inputs, this program will not fail.
 
 Rules
 -----
-        Preprocessing operators are expected to be used before modeling and visualization operators, however this is not enforced.
+Preprocessing operators are expected to be used before modeling and visualization operators, however this is not enforced.
 
 
 IMPORTANT : The “split_models” operator should be used before the “create_train” operator which should be used before any forecast operators are used. 
@@ -135,4 +126,4 @@ Example
 
 Result
 ------
-        Users must add a visualization node to visualize the result. Because preDicTable is still a beta, its forecast may not be accurate.
+Users must add a visualization node to visualize the result. Because preDicTable is still a beta, its forecast may not be accurate.
