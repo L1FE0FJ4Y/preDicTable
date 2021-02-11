@@ -6,13 +6,13 @@ Easy Install:
 -------------
 In a Unix terminal and inside the preDicTable Directory: 
 
->>> python3 -m venv preDic
+> 1 : python3 -m venv preDic
 
->>> source preDic/bin/activate 
+> 2 : source preDic/bin/activate 
 
->>> pip3 install -r requirements.txt 
+> 3 : pip3 install -r requirements.txt 
 
->>> python3 preDicTable.py
+> 4 : python3 preDicTable.py
 
 
 Contents of preDicTable.zip
