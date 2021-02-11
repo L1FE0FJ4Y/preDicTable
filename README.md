@@ -17,20 +17,21 @@ In a Unix terminal and inside the preDicTable Directory:
 
 Contents of preDicTable.zip
 ---------------------------
-        i.        README.txt
+
+i.        README.txt
 - Basic overview and use instructions
-        ii.        SRS.pdf
+ii.        SRS.pdf
                         - System Requirements Specifications
-        iii.         SDS.pdf
+iii.         SDS.pdf
 - System Design Specifications
-        iv.         Project_Plan.pdf
+iv.         Project_Plan.pdf
 - Task and Assignment Breakdown of each member, sorted by time
-        v.         Installation_Documentation.pdf
+v.         Installation_Documentation.pdf
 - Programmer Documentation and Installation Instructions and User Documentation has been condensed down into this document.
-        vi.         preDicTable/
+vi.         preDicTable/
 - Directory containing the 5 python modules: modeling.py, operations.py, preprocessing.py, transformation.py, visualization.py
 and the main python file preDicTable.py
-        vii.        preDictTable/Tree/
+vii.        preDictTable/Tree/
 - Contains the 2 transformation tree modules, node.py, tree.py
 
 
